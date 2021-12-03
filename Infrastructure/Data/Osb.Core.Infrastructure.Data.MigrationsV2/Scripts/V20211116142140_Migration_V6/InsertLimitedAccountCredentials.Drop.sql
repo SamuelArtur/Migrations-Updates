@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertlimitedaccountcredentials(bigint, character varying, character varying);

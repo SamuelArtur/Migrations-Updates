@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vYsQR4bY34aH2sJyxLNBSNUiNZaDAEAidYSmzSPUCma4HKBAAZpWa0dDyzKPM+XG7YXxKX3jHiNjAyjEg3KZSg==",
+  "success": true,
+  "projectFilePath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj",
+  "expectedPackageFiles": [
+    "/home/sartur/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/home/sartur/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,108 @@
+CREATE OR REPLACE FUNCTION public.insertnewaccount(
+	"paramAccountId" bigint,
+	"paramTaxId" character varying,
+	"paramPersonName" character varying,
+	"paramPhoneNumber" character varying,
+	"paramMail" character varying,
+	"paramNickname" character varying,
+	"paramBirthDate" timestamp without time zone,
+	"paramMotherFullName" character varying,
+	"paramFatherFullName" character varying,
+	"paramNationality" character varying,
+	"paramBirthCity" character varying,
+	"paramBirthState" character varying,
+	"paramGender" integer,
+	"paramStatus" integer,
+	"paramMaritalStatus" integer,
+	"paramSpouseName" character varying,
+	"paramOccupation" character varying,
+	"paramCompanyType" integer,
+	"paramCompanyActivity" character varying,
+	"paramConstitutionDate" timestamp without time zone,
+	"paramPubliclyExposedPerson" boolean,
+	"paramCheckPendingTransfers" boolean,
+	"paramIdentityDocument" character varying,
+	"paramBank" character varying,
+	"paramBankBranch" character varying,
+	"paramBankAccount" character varying,
+	"paramBankAccountDigit" character varying)
+    RETURNS TABLE("NewAccountId" bigint) 
+    LANGUAGE 'sql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+    ROWS 1000
+
+AS $BODY$
+INSERT INTO public."NewAccount"
+                    (
+                    "AccountId",
+                    "TaxId",
+                    "PersonName",
+                    "PhoneNumber",
+                    "Mail",
+                    "Nickname",
+                    "BirthDate",
+                    "MotherFullName",
+                    "FatherFullName",
+                    "Nationality",
+                    "BirthCity",
+                    "BirthState",
+                    "Gender",
+                    "Status",
+                    "MaritalStatus",
+                    "SpouseName",
+                    "Occupation",
+                    "CompanyType",
+                    "CompanyActivity",
+                    "ConstitutionDate",
+                    "PubliclyExposedPerson",
+                    "CheckPendingTransfers",
+                    "IdentityDocument",
+                    "Bank",
+                    "BankBranch",
+                    "BankAccount",
+                    "BankAccountDigit",
+                    "CreationDate",
+                    "UpdateDate",
+                    "DeletionDate",
+                    "CreationUserId",
+                    "UpdateUserId" 
+                    )
+	VALUES (
+            "paramAccountId",
+            "paramTaxId",
+            "paramPersonName",
+            "paramPhoneNumber",
+            "paramMail",
+            "paramNickname",
+            "paramBirthDate",
+            "paramMotherFullName",
+            "paramFatherFullName",
+            "paramNationality",
+            "paramBirthCity",
+            "paramBirthState",
+            "paramGender",
+            "paramStatus",
+            "paramMaritalStatus",
+            "paramSpouseName",
+            "paramOccupation",
+            "paramCompanyType",
+            "paramCompanyActivity",
+            "paramConstitutionDate",
+            "paramPubliclyExposedPerson",
+            "paramCheckPendingTransfers",
+            "paramIdentityDocument",
+            "paramBank",
+            "paramBankBranch",
+            "paramBankAccount",
+            "paramBankAccountDigit",
+            NOW(),
+            NOW(),
+            NULL,
+            1,
+            1
+           ) RETURNING "NewAccountId";
+$BODY$;
+
+ALTER FUNCTION public.insertnewaccount(bigint, character varying, character varying, character varying, character varying, character varying, timestamp without time zone, character varying, character varying, character varying, character varying, character varying, integer, integer, integer, character varying, character varying, integer, character varying, timestamp without time zone, boolean, boolean, character varying, character varying, character varying, character varying, character varying)
+    OWNER TO "osb";

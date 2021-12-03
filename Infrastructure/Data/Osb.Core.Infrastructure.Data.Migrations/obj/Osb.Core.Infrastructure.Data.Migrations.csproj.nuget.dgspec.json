@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/Osb.Core.Infrastructure.Data.Migrations.csproj": {}
+  },
+  "projects": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/Osb.Core.Infrastructure.Data.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/Osb.Core.Infrastructure.Data.Migrations.csproj",
+        "projectName": "Osb.Core.Infrastructure.Data.Migrations",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/Osb.Core.Infrastructure.Data.Migrations.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Migrations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

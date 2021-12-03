@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Auth/Osb.Core.Platform.Auth.Common/Osb.Core.Platform.Auth.Common.csproj": {}
+  },
+  "projects": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Auth/Osb.Core.Platform.Auth.Common/Osb.Core.Platform.Auth.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Auth/Osb.Core.Platform.Auth.Common/Osb.Core.Platform.Auth.Common.csproj",
+        "projectName": "Osb.Core.Platform.Auth.Common",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Auth/Osb.Core.Platform.Auth.Common/Osb.Core.Platform.Auth.Common.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Auth/Osb.Core.Platform.Auth.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "4dAdq+ZhSzh89puvC9SLMCJbT7mir4anzbO04BHc46WUrqaac/vHzpUDTpf3101NC7DqMonWpnPXyoUaruh8xg==",
+  "success": true,
+  "projectFilePath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Integration/Osb.Core.Platform.Integration.Service/Osb.Core.Platform.Integration.Service.csproj",
+  "expectedPackageFiles": [
+    "/home/sartur/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
+    "/home/sartur/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "/home/sartur/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/npgsql/5.0.1/npgsql.5.0.1.nupkg.sha512",
+    "/home/sartur/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/system.data.sqlclient/4.8.2/system.data.sqlclient.4.8.2.nupkg.sha512",
+    "/home/sartur/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/home/sartur/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

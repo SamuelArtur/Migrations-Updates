@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateuserwebhookstatus(bigint, integer);

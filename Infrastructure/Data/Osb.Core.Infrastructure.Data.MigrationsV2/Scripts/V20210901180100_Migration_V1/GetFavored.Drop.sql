@@ -1,0 +1,1 @@
+DROP FUNCTION public.getfavored(bigint, character varying);

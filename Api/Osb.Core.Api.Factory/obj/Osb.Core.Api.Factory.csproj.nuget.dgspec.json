@@ -1,0 +1,548 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Factory/Osb.Core.Api.Factory.csproj": {}
+  },
+  "projects": {
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/Osb.Core.Api.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/Osb.Core.Api.Entity.csproj",
+        "projectName": "Osb.Core.Api.Entity",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/Osb.Core.Api.Entity.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Factory/Osb.Core.Api.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Factory/Osb.Core.Api.Factory.csproj",
+        "projectName": "Osb.Core.Api.Factory",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Factory/Osb.Core.Api.Factory.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Factory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/Osb.Core.Api.Repository.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/Osb.Core.Api.Repository.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/Osb.Core.Infrastructure.Data.DependecyInjection.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/Osb.Core.Infrastructure.Data.DependecyInjection.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/Osb.Core.Api.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/Osb.Core.Api.Repository.csproj",
+        "projectName": "Osb.Core.Api.Repository",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/Osb.Core.Api.Repository.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/Osb.Core.Api.Entity.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Api/Osb.Core.Api.Entity/Osb.Core.Api.Entity.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/Osb.Core.Infrastructure.Data.DependecyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/Osb.Core.Infrastructure.Data.DependecyInjection.csproj",
+        "projectName": "Osb.Core.Infrastructure.Data.DependecyInjection",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/Osb.Core.Infrastructure.Data.DependecyInjection.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.DependecyInjection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/Osb.Core.Infrastructure.Data.MigrationsV2.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/Osb.Core.Infrastructure.Data.MigrationsV2.csproj"
+              },
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/Osb.Core.Infrastructure.Data.MigrationsV2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/Osb.Core.Infrastructure.Data.MigrationsV2.csproj",
+        "projectName": "Osb.Core.Infrastructure.Data.MigrationsV2",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/Osb.Core.Infrastructure.Data.MigrationsV2.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.MigrationsV2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[3.2.15, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj",
+        "projectName": "Osb.Core.Infrastructure.Data.Repository",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/Osb.Core.Infrastructure.Data.Repository.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Infrastructure/Data/Osb.Core.Infrastructure.Data.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj",
+        "projectName": "Osb.Core.Platform.Common.Entity",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj",
+        "projectName": "Osb.Core.Platform.Common.Factory",
+        "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/Osb.Core.Platform.Common.Factory.csproj",
+        "packagesPath": "/home/sartur/.nuget/packages/",
+        "outputPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Factory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sartur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj": {
+                "projectPath": "/home/sartur/Downloads/osb-core-feature-ops-34273/Platform/Common/Osb.Core.Platform.Common.Entity/Osb.Core.Platform.Common.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

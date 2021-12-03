@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Osb.Core.Platform.Auth.Common\Osb.Core.Platform.Auth.Common.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Auth.Entity\Osb.Core.Platform.Auth.Entity.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Auth.Repository\Osb.Core.Platform.Auth.Repository.csproj" />
+    <ProjectReference Include="..\Osb.Core.Platform.Auth.Util\Osb.Core.Platform.Auth.Util.csproj" />
+    <ProjectReference Include="..\..\Integration\Osb.Core.Platform.Integration.Entity\Osb.Core.Platform.Integration.Entity.csproj" />
+    <ProjectReference Include="..\..\Integration\Osb.Core.Platform.Integration.Service\Osb.Core.Platform.Integration.Service.csproj" />
+    <ProjectReference Include="..\Factory\Osb.Core.Platform.Auth.Factory.Repository\Osb.Core.Platform.Auth.Factory.Repository.csproj" />
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Factory\Osb.Core.Platform.Common.Factory.csproj" />
+    <ProjectReference Include="..\..\Common\Osb.Core.Platform.Common.Util\Osb.Core.Platform.Common.Util.csproj" />
+    <ProjectReference Include="..\..\Integration\Factory\Osb.Core.Platform.Integration.Factory.Service\Osb.Core.Platform.Integration.Factory.Service.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

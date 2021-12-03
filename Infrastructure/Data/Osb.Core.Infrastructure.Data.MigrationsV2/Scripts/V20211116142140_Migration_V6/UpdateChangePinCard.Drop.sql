@@ -1,0 +1,1 @@
+DROP FUNCTION public.updatechangepincard(bigint, character varying, bigint, integer, integer);

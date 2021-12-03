@@ -1,0 +1,1 @@
+DROP FUNCTION public.getaccountsbytaxidandcompanyid(character varying, bigint);

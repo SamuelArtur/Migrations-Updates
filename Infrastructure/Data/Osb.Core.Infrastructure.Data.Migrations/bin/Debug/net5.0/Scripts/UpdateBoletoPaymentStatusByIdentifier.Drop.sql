@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateboletopaymentstatusbyidentifier(character varying, bigint)

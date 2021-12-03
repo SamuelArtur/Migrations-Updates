@@ -1,0 +1,1 @@
+DROP FUNCTION public.insertsubaccount(bigint, character varying, character varying, character varying, character varying);

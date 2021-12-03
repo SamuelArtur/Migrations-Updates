@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Osb.Core.Workers.InternalTransfer.Cancel.Starter": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

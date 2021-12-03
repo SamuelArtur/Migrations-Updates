@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateboletopaymentstatus(bigint, integer);

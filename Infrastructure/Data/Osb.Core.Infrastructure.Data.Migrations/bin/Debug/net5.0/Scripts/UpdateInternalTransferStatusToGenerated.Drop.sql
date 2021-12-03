@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateinternaltransferstatustogenerated(bigint, int, bigint);

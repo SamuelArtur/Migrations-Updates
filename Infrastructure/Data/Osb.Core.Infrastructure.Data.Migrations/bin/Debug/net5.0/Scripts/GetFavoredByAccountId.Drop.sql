@@ -1,0 +1,1 @@
+DROP FUNCTION public.GetFavoredByAccountId(bigint)

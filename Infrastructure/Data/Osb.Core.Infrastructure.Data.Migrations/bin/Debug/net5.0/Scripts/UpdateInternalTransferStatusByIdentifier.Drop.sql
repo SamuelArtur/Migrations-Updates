@@ -1,0 +1,1 @@
+DROP FUNCTION public.updateinternaltransferstatusbyidentifier(character varying, int)
